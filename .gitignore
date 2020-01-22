@@ -1,7 +1,0 @@
-node_modules
-www*
-.DS_Store
-.idea
-junit.xml
-coverage
-.vscode
