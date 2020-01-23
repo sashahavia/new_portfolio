@@ -11,9 +11,9 @@ const contextRoot = config.get('contextRoot');
 const contextPath = path.resolve(__dirname, '..', 'src', 'client');
 const outputPath = path.resolve(__dirname, '..', `www-${appEnv}`);
 
-console.log('========================================');
-console.log(JSON.stringify({ contextRoot }, null, 4));
-console.log('========================================');
+// console.log('========================================');
+// console.log(JSON.stringify({ contextRoot }, null, 4));
+// console.log('========================================');
 
 module.exports = {
     context: contextPath,
